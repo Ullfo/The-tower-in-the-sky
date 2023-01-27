@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    background-color: black;
+}
+
+.slider {
+    height: 100%;
+    
+}
+
+.slider__layers {
+ position: absolute;
+ inset: 0;
+ background-size: cover;
+ background-position: center;
+ will-change: transform;
+
+}
+
+.slider__Content {
+    overflow: hidden;
+}
+.slider__wrapper {
+    will-change: transform;
+    transform-style: preserve-3d;
+
+}
